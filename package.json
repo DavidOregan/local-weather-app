@@ -8,11 +8,11 @@
     "build": "npm run standardise && ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"    
+    "e2e": "ng e2e"
   },
   "prettier": {
     "printWidth": 90,
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
     "trailingComma": "es5",
     "parser": "typescript"
